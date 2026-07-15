@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ekhlas — Fridge, Air Conditioner & Electrical Oven Repairment</title>
+  <meta name="description" content="Ekhlas — professional repair services for refrigerators, air conditioners and electrical ovens. Contact: 0946521258 / 0967665105" />
+  <style>
+    /* Simple, modern responsive styling */
+    :root{
+      --accent:#0b6fb8;
+      --dark:#1b1b1b;
+      --muted:#666;
+      --card-bg:#fff;
+      --max-w:1100px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background: linear-gradient(180deg,#f6f9fc,#ffffff);
+      color:var(--dark);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+    .wrap{max-width:var(--max-w);margin:28px auto;padding:0 20px;}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#3ba3e6);
+      display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px;
+      box-shadow:0 6px 18px rgba(11,111,184,0.15);
+    }
+    h1{margin:0;font-size:20px}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:14px}
+    nav a{margin-left:14px;color:var(--accent);text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:22px;align-items:center;margin-top:22px}
+    .card{background:var(--card-bg);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,15,15,0.04)}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+    .service{padding:14px;border-radius:10px;border:1px solid #eef5fb;background:linear-gradient(180deg,#fff,#fbfdff)}
+    .service h3{margin:0 0 6px;font-size:16px}
+    .contact{display:flex;flex-direction:column;gap:8px}
+    .btn{
+      display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:700;
+      box-shadow:0 6px 14px rgba(11,111,184,0.18)
+    }
+    .phone{font-weight:700;color:var(--dark)}
+    .portfolio{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:14px}
+    .port-item{height:140px;border-radius:10px;background:#f4f7fb;display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:600}
+    footer{margin-top:28px;padding:18px 0;text-align:center;color:var(--muted);font-size:13px}
+    .small{font-size:13px;color:var(--muted)}
+    /* responsive */
+    @media (max-width:860px){
+      .hero{grid-template-columns:1fr}
+      header{flex-direction:column;align-items:flex-start;gap:10px}
+    }
+    /* contact form styles (simple) */
+    form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef7;margin-top:8px}
+    form label{font-weight:600;font-size:13px}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    @media (max-width:640px){.grid-2{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">E</div>
+        <div>
+          <h1>Ekhlas</h1>
+          <p class="lead">Fridge, Air Conditioner & Electrical Oven Repairment — Owner: Redi Jemal</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="hero">
+      <div>
+        <div class="card">
+          <h2>Fast, reliable appliance repair — we come to you</h2>
+          <p class="small">We repair refrigerators, air conditioners and electrical ovens. Honest pricing, skilled technicians and quick turnaround.</p><h3 style="margin-top:12px">Why choose Ekhlas?</h3>
+          <ul class="small" style="padding-left:18px">
+            <li>Experienced technician — professional diagnosis & repair</li>
+            <li>Original spare parts & warranty on repairs (ask for details)</li>
+            <li>Service at home — Addis Ababa and nearby areas</li>
+          </ul>
+
+          <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+            <a class="btn" href="tel:0946521258">Call 0946521258</a>
+            <a class="btn" href="tel:0967665105" style="background:#2fa67a">Call 0967665105</a>
+            <a class="btn" href="mailto:rejemal06@gmail.com" style="background:#555">Email</a>
+          </div>
+        </div>
+
+        <section id="services" style="margin-top:12px">
+          <h3 style="margin:8px 0">Services</h3>
+          <div class="services">
+            <div class="service">
+              <h3>Refrigerator Repair</h3>
+              <p class="small">Compressor checks, gas refill, thermostat repair, leak detection, and full servicing.</p>
+            </div>
+            <div class="service">
+              <h3>Air Conditioner Repair</h3>
+              <p class="small">Split & window AC service: cooling problems, refrigerant, compressor & cleaning.</p>
+            </div>
+            <div class="service">
+              <h3>Electrical Oven Repair</h3>
+              <p class="small">Thermostat, element replacement, wiring & safety checks for electric ovens.</p>
+            </div>
+            <div class="service">
+              <h3>Preventive Maintenance</h3>
+              <p class="small">Routine checks to extend life and reduce future repairs.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" style="margin-top:14px">
+          <h3>Portfolio / Recent work</h3>
+          <div class="portfolio">
+            <div class="port-item">Fridge — Compressor replaced</div>
+            <div class="port-item">AC — Gas refill & cleaning</div>
+            <div class="port-item">Oven — Element repair</div>
+            <div class="port-item">Home service visits</div>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <div class="card contact" id="contact" aria-labelledby="contact-heading">
+          <h3 id="contact-heading">Contact & Request Service</h3>
+          <p class="small">Owner: <strong>Redi Jemal</strong></p>
+          <p class="phone">0946521258 — 0967665105</p>
+          <p class="small">Email: <a href="mailto:rejemal06@gmail.com">rejemal06@gmail.com</a></p>
+
+          <div style="margin-top:8px">
+            <label class="small">Preferred time to call</label>
+            <div class="small">Sunday - Saturday: 8:00 AM — 8:00 PM</div>
+          </div>
+
+          <hr style="margin:12px 0;border:none;border-top:1px solid #eef5fb">
+
+          <form onsubmit="event.preventDefault(); alert('Thank you! We will contact you soon.');" aria-label="request service form">
+            <label for="name">Your name</label>
+            <input id="name" placeholder="e.g. Abraham" required>
+            <label for="phone">Phone</label>
+            <input id="phone" placeholder="e.g. 09xxxxxxx" required>
+            <label for="service">Service needed</label>
+            <input id="service" placeholder="e.g. Fridge not cooling" required>
+            <label for="note">Short note (optional)</label>
+            <textarea id="note" rows="3" placeholder="Add details"></textarea>
+
+            <div style="margin-top:10px;display:flex;gap:8px">
+              <button class="btn" type="submit">Request Call</button>
+              <a class="btn" href="tel:0946521258" style="background:#2fa67a">Call Now</a>
+            </div>
+          </form>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4 style="margin:0 0 6px">Location</h4>
+          <p class="small">Addis Ababa — service area (call to confirm exact coverage)</p>
+          <div class="small" style="margin-top:8px">Working hours: Mon–Sun 8:00–20:00</div>
+        </div>
+      </aside>
+    </section><footer>
+      <div>© <strong>Ekhlas</strong> — Fridge, Air Conditioner & Electrical Oven Repairment</div>
+      <div class="small">Owner: Redi Jemal · Phone: 0946521258 / 0967665105 · Email: rejemal06@gmail.com</div>
+    </footer>
+  </div>
+</body>
+</html>
